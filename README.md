@@ -3,14 +3,14 @@ My solutions for google code jam
 
 #### Actual result
 
-* y2015
+y2015
  * qual:
   * A Standing Ovation (Correct)
   * B Infinite House of Pancakes (Incorrect)
   * C Dijkstra (Incorrect)
   * D Ominous Omino (Correct | Not attempted)
 
-* y2014
+y2014
  * qual:
   * A Magic Trick (Correct)
   * B Cookie Clicker Alpha (Correct)
@@ -20,7 +20,7 @@ My solutions for google code jam
   * A The Repeater (Correct | Incorrect)
   * B New Lottery Game (Correct | Not attempted)
 
-* y2013
+y2013
  * qual:
   * A Tic-Tac-Toe-Tomek (Correct)
   * B Lawnmower (Correct)
@@ -32,7 +32,7 @@ My solutions for google code jam
  * Round 1B
   * A Osmos (Incorrect)
 
-* y2012
+y2012
  * qual:
   * A Speaking in Toungues (Correct)
   * B Dancing With the Googlers (Correct)
