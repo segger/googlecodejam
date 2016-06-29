@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class A {
-	private static final String IN_BASE_PATH = "src/main/resources/se/johannalynn/google/codejam";
-	private static final String IN_PATH = IN_BASE_PATH + "/y2015/qual/";
-	private static final String OUT_PATH = "out/y2015/qual/";
+	private static final String BASE_PATH = "src/main/resources/se/johannalynn/google/codejam";
+	private static final String IN_PATH = BASE_PATH + "/y2015/qual/";
+	private static final String OUT_PATH = BASE_PATH + "/y2015/qual/";
 	
 	private static final String IN_FILE = "A-large.in";
 	private static final String OUT_FILE = "A-large.out";

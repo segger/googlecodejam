@@ -10,9 +10,10 @@ public class A {
 	private static final String YEAR = "y2015";
 	private static final String ROUND = "qual";
 	
-	private static final String IN_BASE_PATH = "src/main/resources/se/johannalynn/google/codejam";
-	private static final String IN_PATH = IN_BASE_PATH + "/" + YEAR + "/" + ROUND + "/";
-	private static final String OUT_PATH = "out/" + YEAR + "/" + ROUND + "/";
+	private static final String BASE_PATH = "src/main/resources/se/johannalynn/google/codejam";
+	private static final String IN_PATH = BASE_PATH + "/" + YEAR + "/" + ROUND + "/";
+	private static final String OUT_PATH = BASE_PATH + "/" + YEAR + "/" + ROUND + "/";
+	//private static final String OUT_PATH = "out/";
 	
 	private static final String FILE = "A";
 	private static final String IN_FILE = FILE + ".in";
@@ -29,10 +30,10 @@ public class A {
 		StringBuffer buffer = new StringBuffer();
 		
 		// read in start
-		int n = Integer.valueOf(in.nextLine());
+		int T = Integer.valueOf(in.nextLine());
 		// System.out.println(n);
 		
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < T; i++) {
 			
 			int caseNbr = i + 1;
 			buffer.append("Case #" + caseNbr + ": ");

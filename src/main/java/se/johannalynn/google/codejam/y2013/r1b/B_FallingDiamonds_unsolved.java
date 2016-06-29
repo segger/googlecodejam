@@ -91,14 +91,18 @@ public class B_FallingDiamonds_unsolved {
 		StringBuffer buffer = new StringBuffer();
 		
 		// read in start
-		int n = Integer.valueOf(in.nextLine());
+		int T = Integer.valueOf(in.nextLine());
 		// System.out.println(n);
 		
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < T; i++) {
+			String[] tmp = in.nextLine().split(" ");
+			int N = Integer.valueOf(tmp[0]);
+			int X = Integer.valueOf(tmp[1]);
+			int Y = Integer.valueOf(tmp[2]);
 			
 			int caseNbr = i + 1;
 			buffer.append("Case #" + caseNbr + ": ");
-			//buffer.append(calc());
+			buffer.append(calc(N, X, Y));
 			buffer.append("\n");
 		}
 		in.close();
@@ -109,5 +113,10 @@ public class B_FallingDiamonds_unsolved {
 				outFileName)));
 		out.write(buffer.toString());
 		out.close();
+	}
+	
+	private static String calc(int N, int X, int Y) {
+		double tmp = 1.234567;
+		return String.valueOf(tmp);
 	}
 }
