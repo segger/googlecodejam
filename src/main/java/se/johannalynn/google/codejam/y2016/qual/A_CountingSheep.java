@@ -38,7 +38,7 @@ Case #5: 5076
  * @author segger
  *
  */
-public class A_CountingSheep_unsolved {
+public class A_CountingSheep {
 	private static final String YEAR = "y2016";
 	private static final String ROUND = "qual";
 	
@@ -46,7 +46,7 @@ public class A_CountingSheep_unsolved {
 	private static final String IN_PATH = BASE_PATH + "/" + YEAR + "/" + ROUND + "/";
 	private static final String OUT_PATH = BASE_PATH + "/" + YEAR + "/" + ROUND + "/";
 	
-	private static final String FILE = "A";
+	private static final String FILE = "A-large-practice";
 	private static final String IN_FILE = FILE + ".in";
 	private static final String OUT_FILE = FILE + ".out";
 
@@ -65,10 +65,11 @@ public class A_CountingSheep_unsolved {
 		// System.out.println(n);
 		
 		for (int i = 0; i < T; i++) {
+			int N = Integer.valueOf(in.nextLine());
 			
 			int caseNbr = i + 1;
 			buffer.append("Case #" + caseNbr + ": ");
-			//buffer.append(calc());
+			buffer.append(calc(N));
 			buffer.append("\n");
 		}
 		in.close();
@@ -79,5 +80,38 @@ public class A_CountingSheep_unsolved {
 				outFileName)));
 		out.write(buffer.toString());
 		out.close();
+	}
+
+	private static String calc(int N) {
+		if(N == 0) return "INSOMNIA";
+		int sheep = N;
+		
+		boolean[] nbrsFound = new boolean[10];
+		boolean allNbrsFound = false;
+		int count = 1;
+		
+		while(!allNbrsFound) {
+			char[] asChars = (""+sheep).toCharArray();
+			
+			for(char asChar : asChars) {
+				int nbr = Integer.parseInt(String.valueOf(asChar));
+				nbrsFound[nbr] = true;
+			}
+			
+			allNbrsFound = true;
+			for(boolean nbr : nbrsFound) {
+				if(!nbr) {
+					allNbrsFound = false;
+				}
+			}
+			
+			if(allNbrsFound) {
+				return String.valueOf(sheep);
+			}
+			
+			sheep = ++count*N;
+		}
+		
+		return "INSOMNIA";
 	}
 }
