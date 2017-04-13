@@ -37,7 +37,8 @@ public class A {
 			
 			int caseNbr = i + 1;
 			buffer.append("Case #" + caseNbr + ": ");
-			//buffer.append(calc());
+			String result = calc();
+			buffer.append(result);
 			buffer.append("\n");
 		}
 		in.close();
@@ -48,5 +49,9 @@ public class A {
 				outFileName)));
 		out.write(buffer.toString());
 		out.close();
+	}
+	
+	private static String calc() {
+		return "RESULT";
 	}
 }
