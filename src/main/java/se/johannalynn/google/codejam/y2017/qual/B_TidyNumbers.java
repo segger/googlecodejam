@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class A {
+public class B_TidyNumbers {
 	private static final String YEAR = "y2017";
 	private static final String ROUND = "qual";
 	
@@ -15,8 +15,8 @@ public class A {
 	//private static final String OUT_PATH = BASE_PATH + "/" + YEAR + "/" + ROUND + "/";
 	private static final String OUT_PATH = "out/";
 	
-	private static final String FILE = "A-large";
-	//private static final String FILE = "A-small-attempt0";
+	//private static final String FILE = "B-small-attempt1";
+	private static final String FILE = "B-large";
 	private static final String IN_FILE = FILE + ".in";
 	private static final String OUT_FILE = FILE + ".out";
 
@@ -32,14 +32,12 @@ public class A {
 		
 		// read in start
 		int T = Integer.valueOf(in.nextLine());
-		// System.out.println(n);
 		
 		for (int i = 0; i < T; i++) {
-			String[] line = in.nextLine().split(" ");
-			int K = Integer.valueOf(line[1]);
+			String input = in.nextLine();
 			int caseNbr = i + 1;
 			buffer.append("Case #" + caseNbr + ": ");
-			String result = calc(line[0], K);
+			String result = calc(input);
 			System.out.println(result);
 			buffer.append(result);
 			buffer.append("\n");
@@ -54,43 +52,48 @@ public class A {
 		out.close();
 	}
 	
-	private static String calc(String input, int K) {
-		System.out.println(input + " -> " + K);
+	private static String calc(String input) {
+		System.out.print(input + " -> ");
+		
 		int length = input.length();
-		
-		int happy = 0;
-		boolean[] board = new boolean[length];
-		for(int i = 0; i < length; i++) {
-			if(input.charAt(i) == '+') {
-				board[i] = true;
-				happy++;
-			}
+		if(length == 1) {
+			return input;
 		}
 		
-		if(happy == length) {
-			return "0";
-		}
+		int current = Integer.valueOf(input.substring(0, 1));
+		int c = 1;
+		int index = 0;
 		
-		int nbrOfFlips = 0;
-		int c = 0;
+		StringBuffer buffer = new StringBuffer();
+		StringBuffer tmpBuffer = new StringBuffer();
+		
 		while(c < length) {
-			//System.out.println("c: " + c + " -> " + board[c]);
-			if(!board[c]) {
-				//System.out.println("flip " + c + " -> " + (c + K - 1));
-				//flipp
-				for(int i = 0; i < K; i++) {
-					int flip_i = c + i;
-					//System.out.println("flipping " + flip_i);
-					if(flip_i >= length) {
-						return "IMPOSSIBLE";
-					}
-					board[flip_i] = !board[flip_i];
+			int next = Integer.valueOf(input.substring(c, c + 1));
+			if(next > current) {
+				buffer.append(tmpBuffer.toString());
+				buffer.append(current);
+				index = c;
+				tmpBuffer = new StringBuffer();
+			} else if(next < current) {
+				//do i miss current
+				int selected = Integer.valueOf(input.substring(index, index + 1));
+				if(selected - 1 > 0) {
+					buffer.append(selected - 1);
 				}
-				nbrOfFlips++;
+				for(int j = index + 1; j < length; j++) {
+					buffer.append("9");
+				}
+				return buffer.toString();
+			} else {
+				//buffer.append(current);
+				tmpBuffer.append(current);
 			}
+			current = next;
 			c++;
 		}
+		buffer.append(tmpBuffer.toString());
+		buffer.append(current);
 		
-		return String.valueOf(nbrOfFlips);
+		return buffer.toString();
 	}
 }

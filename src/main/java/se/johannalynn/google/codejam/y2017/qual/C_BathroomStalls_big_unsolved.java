@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class C {
+public class C_BathroomStalls_big_unsolved {
 	private static final String YEAR = "y2017";
 	private static final String ROUND = "qual";
 	

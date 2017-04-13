@@ -5,17 +5,17 @@ My solutions for google code jam
 
 ###### y2017
 * qual:
-  * A Oversized Pancake Flipper (Solved, Solved) - Solved
-  * B Tidy Numbers (Solved, Solved) - Solved
-  * C Bathroom Stalls (Solved, Solved, Incorrect) - Solved|Incorrect
+  * A Oversized Pancake Flipper (Correct) - Solved
+  * B Tidy Numbers (Correct) - Solved
+  * C Bathroom Stalls (Correct | Incorrect) - Solved | Incorrect
   * D Fashion Show (Not attempted) - Unsolved
 
 ###### y2016
 * qual:
-  * A Counting Sheep () - Solved
-  * B Revenge Of The Pancakes ()
-  * C Coinjam ()
-  * D Fractiles ()
+  * A Counting Sheep - _Solved_
+  * B Revenge Of The Pancakes
+  * C Coinjam
+  * D Fractiles
 
 ###### y2015
 * qual:
@@ -26,8 +26,8 @@ My solutions for google code jam
 
 ###### y2014
 * qual:
-  * A Magic Trick (Correct) - Solved
-  * B Cookie Clicker Alpha (Correct) - Solved
+  * A Magic Trick (Correct) - _Solved_
+  * B Cookie Clicker Alpha (Correct) - _Solved_
   * C Minesweeper () - Unsolved
   * D Decitful War () - Unsolved
 * Round 1A
@@ -38,7 +38,7 @@ My solutions for google code jam
 
 ###### y2013
 * qual:
-  * A Tic-Tac-Toe-Tomek (Correct) - Solved
+  * A Tic-Tac-Toe-Tomek (Correct) - _Solved_
   * B Lawnmower (Correct) - Unsolved
   * C Fair and Square (Correct) - Unsolved
   * D Treasure (Incorrect) - Unsolved
@@ -60,18 +60,18 @@ My solutions for google code jam
 
 ###### y2008
 * qual:
-  * A Saving The Universe () - Solved
-  * B Train Table () - Solved
-  * C Fly Swatter () - Unsolved
+  * A Saving The Universe - _Solved_
+  * B Train Table - _Solved_
+  * C Fly Swatter - Unsolved
 * Round 1A
-  * A Minimum Scalar Product () - Solved
-  * B Milkshakes () - Solved
-  * C Numbers () - Unsolved
+  * A Minimum Scalar Product - _Solved_
+  * B Milkshakes - _Solved_
+  * C Numbers - Unsolved
 * Round 1B
-  * A Crop Triangles () - Unsolved
-  * B Number Sets () - Unsolved
-  * C Moustrap () - Unsolved
+  * A Crop Triangles - Unsolved
+  * B Number Sets - Unsolved
+  * C Moustrap - Unsolved
 * Round 1C
-  * A Text Messaging Outrage () - Solved
-  * B Ugly Numbers () - Unsolved
-  * C Increasing Speed Limits () - Solved
+  * A Text Messaging Outrage - _Solved_
+  * B Ugly Numbers - Unsolved
+  * C Increasing Speed Limits - _Solved_

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class D {
+public class D_FashionShow_unsolved {
 	private static final String YEAR = "y2017";
 	private static final String ROUND = "qual";
 	
