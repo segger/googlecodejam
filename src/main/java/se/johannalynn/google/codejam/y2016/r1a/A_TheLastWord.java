@@ -36,7 +36,7 @@ winning last word that you should produce?
  * @author segger
  *
  */
-public class A_TheLastWord_unsolved {
+public class A_TheLastWord {
 	private static final String YEAR = "y2016";
 	private static final String ROUND = "r1a";
 	
@@ -45,7 +45,7 @@ public class A_TheLastWord_unsolved {
 	private static final String OUT_PATH = BASE_PATH + "/" + YEAR + "/" + ROUND + "/";
 	//private static final String OUT_PATH = "out/";
 	
-	private static final String FILE = "A";
+	private static final String FILE = "A-large-practice";
 	private static final String IN_FILE = FILE + ".in";
 	private static final String OUT_FILE = FILE + ".out";
 
@@ -67,7 +67,9 @@ public class A_TheLastWord_unsolved {
 			
 			int caseNbr = i + 1;
 			buffer.append("Case #" + caseNbr + ": ");
-			buffer.append(calc(in.nextLine().toCharArray()));
+			String result = calc(in.nextLine());
+			System.out.println(result);
+			buffer.append(result);
 			buffer.append("\n");
 		}
 		in.close();
@@ -80,13 +82,22 @@ public class A_TheLastWord_unsolved {
 		out.close();
 	}
 	
-	private static String calc(char[] input) {
+	private static String calc(String input) {
+		int length = input.length();
+		String start = input.substring(0, 1);
 		
-		char start = input[0];
-		for(int i = 0; i < input.length; i++) {
-			
+		String result = start;
+		for(int i = 1; i < length; i++) {
+			String next = input.substring(i, i+1);
+			if(next.compareTo(start) >= 0) {
+				//beginning
+				result = next + result;
+				start = next;
+			} else {
+				//end
+				result = result + next;
+			}
 		}
-		//return input;
-		return null;
+		return result;
 	}
 }

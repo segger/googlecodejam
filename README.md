@@ -9,6 +9,9 @@ My solutions for google code jam
   * B Tidy Numbers (Correct) - Solved
   * C Bathroom Stalls (Correct | Incorrect) - Solved | Incorrect
   * D Fashion Show (Not attempted) - Unsolved
+* r1b:
+  * A Cruise Control (Correct) - Solved
+  * C Pony Express (Not attempted) - Unsolved
 
 ###### y2016
 * qual:
@@ -16,6 +19,10 @@ My solutions for google code jam
   * B Revenge Of The Pancakes
   * C Coinjam
   * D Fractiles
+* r1a:
+  * A The Last Word - _Solved_
+  * B Rank And File
+  * C BFF
 
 ###### y2015
 * qual:
