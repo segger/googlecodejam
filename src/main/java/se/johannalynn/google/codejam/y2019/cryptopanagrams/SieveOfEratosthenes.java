@@ -1,5 +1,7 @@
 package se.johannalynn.google.codejam.y2019.cryptopanagrams;
 
+import java.math.BigInteger;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -7,7 +9,9 @@ import java.util.List;
 public class SieveOfEratosthenes {
 
     public static void main(String[] args) {
-        List<Integer> primes = sieveOfEratosthenes(10000);
+        List<Integer> primes = sieveOfEratosthenes(1000000);
+        //BigInteger N = new BigInteger("10").pow(100);
+
     }
 
     public static List<Integer> sieveOfEratosthenes(int n) {
