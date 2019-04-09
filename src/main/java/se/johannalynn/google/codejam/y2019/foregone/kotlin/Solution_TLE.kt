@@ -20,7 +20,7 @@ fun result(number: String): String {
 
     val second = two.toString()
     val retVal = one.toString() + " " + second.trimStart { it == '0' }
-    return "tmp"
+    return retVal
 }
 
 fun main(args: Array<String>) {
