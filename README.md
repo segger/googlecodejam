@@ -3,6 +3,13 @@ My solutions for google code jam
 
 #### Content (Result during competition) - Current
 
+###### y2018
+* qual:
+  * Foregone (Correct) - Solved
+  * You can go your own way (Correct) - Solved
+  * Cryptopangrams (Not attempted) - Unsolved
+  * Dat Bae (Not attempted) - Unsolved
+
 ###### y2017
 * qual:
   * A Oversized Pancake Flipper (Correct) - Solved
