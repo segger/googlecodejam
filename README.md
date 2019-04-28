@@ -5,23 +5,25 @@ My solutions for google code jam
 
 ###### y2019
 * qual:
-  * Foregone (Correct) - Solved
-  * You can go your own way (Correct) - Solved
+  * Foregone (Correct) - _Solved_
+  * You can go your own way (Correct) - _Solved_
   * Cryptopangrams (Not attempted) - Unsolved
   * Dat Bae (Not attempted) - Unsolved
 * r1b:
-  * 
+  * Manhattan Crepe Cart (Incorrect) - _Solved_ | Incorrect (RE)
+  * Draupnir (Not attempted) - Unsolved
+  * Fair fight (Not attempted) - Unsolved
 
 ###### y2018
 
 ###### y2017
 * qual:
-  * A Oversized Pancake Flipper (Correct) - Solved
+  * A Oversized Pancake Flipper (Correct) - _Solved_
   * B Tidy Numbers (Correct) - Solved
-  * C Bathroom Stalls (Correct | Incorrect) - Solved | Incorrect
+  * C Bathroom Stalls (Correct | Incorrect) - _Solved_ | Incorrect
   * D Fashion Show (Not attempted) - Unsolved
 * r1b:
-  * A Cruise Control (Correct) - Solved
+  * A Cruise Control (Correct) - _Solved_
   * C Pony Express (Not attempted) - Unsolved
 
 ###### y2016
