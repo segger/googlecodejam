@@ -1,4 +1,4 @@
-package se.johannalynn.google.codejam.y2019.foregone.kotlin
+package se.johannalynn.google.codejam.y2019.qual.foregone.kotlin
 
 import java.util.*
 import java.io.InputStreamReader

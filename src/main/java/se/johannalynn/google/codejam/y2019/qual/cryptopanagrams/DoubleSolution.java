@@ -1,4 +1,4 @@
-package se.johannalynn.google.codejam.y2019.cryptopanagrams;
+package se.johannalynn.google.codejam.y2019.qual.cryptopanagrams;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;

@@ -1,4 +1,4 @@
-package se.johannalynn.google.codejam.y2019.foregone;
+package se.johannalynn.google.codejam.y2019.qual.foregone;
 
 import java.util.*;
 import java.io.*;

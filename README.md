@@ -3,12 +3,16 @@ My solutions for google code jam
 
 #### Content (Result during competition) - Current
 
-###### y2018
+###### y2019
 * qual:
   * Foregone (Correct) - Solved
   * You can go your own way (Correct) - Solved
   * Cryptopangrams (Not attempted) - Unsolved
   * Dat Bae (Not attempted) - Unsolved
+* r1b:
+  * 
+
+###### y2018
 
 ###### y2017
 * qual:

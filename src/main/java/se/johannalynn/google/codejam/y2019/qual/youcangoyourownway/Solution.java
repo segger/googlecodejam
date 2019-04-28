@@ -1,4 +1,4 @@
-package se.johannalynn.google.codejam.y2019.youcangoyourownway;
+package se.johannalynn.google.codejam.y2019.qual.youcangoyourownway;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

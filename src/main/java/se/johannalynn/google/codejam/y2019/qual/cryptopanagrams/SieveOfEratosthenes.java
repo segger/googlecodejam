@@ -1,7 +1,5 @@
-package se.johannalynn.google.codejam.y2019.cryptopanagrams;
+package se.johannalynn.google.codejam.y2019.qual.cryptopanagrams;
 
-import java.math.BigInteger;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
