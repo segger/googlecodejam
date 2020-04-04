@@ -7,6 +7,7 @@ My solutions for google code jam
 * qual:
   * Vestigium (Correct) - _Solved_
   * Nesting Depth (Correct, Correct) - _Solved_
+  * Parenting partnering returns (Correct, Correct) - _Solved_
 
 ###### y2019
 * qual:
