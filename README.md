@@ -3,6 +3,10 @@ My solutions for google code jam
 
 #### Content (Result during competition) - Current
 
+###### y2020
+* qual:
+  * Vestigium (Correct) - _Solved_
+
 ###### y2019
 * qual:
   * Foregone (Correct) - _Solved_
