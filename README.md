@@ -6,6 +6,7 @@ My solutions for google code jam
 ###### y2020
 * qual:
   * Vestigium (Correct) - _Solved_
+  * Nesting Depth (Correct, Correct) - _Solved_
 
 ###### y2019
 * qual:
