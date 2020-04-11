@@ -9,6 +9,9 @@ My solutions for google code jam
   * Nesting Depth (Correct, Correct) - _Solved_
   * Parenting partnering returns (Correct, Correct) - _Solved_
   * esabetad (Correct, Wrong Answer, -)
+* r1a:
+  * Pattern matching (Correct, Wrong Answer, -) - _Solved_ | Incorrect
+  * Pascal Walk (Not attempted) - Unsolved
 
 ###### y2019
 * qual:
