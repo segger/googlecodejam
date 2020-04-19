@@ -12,6 +12,8 @@ My solutions for google code jam
 * r1a:
   * Pattern matching (Correct, Wrong Answer, -) - _Solved_ | Incorrect
   * Pascal Walk (Not attempted) - Unsolved
+* r1b:
+  * Expogo (Correct, Memory Limit, -) - _Solved_ | Incorrect
 
 ###### y2019
 * qual:
