@@ -14,6 +14,8 @@ My solutions for google code jam
   * Pascal Walk (Not attempted) - Unsolved
 * r1b:
   * Expogo (Correct, Memory Limit, -) - _Solved_ | Incorrect
+* r1c:
+  * Overexcited fan (Not attempted) - (_Solved_, _Solved_, _Solved_)
 
 ###### y2019
 * qual:
