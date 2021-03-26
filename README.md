@@ -16,6 +16,7 @@ My solutions for google code jam
   * Expogo (Correct, Memory Limit, -) - _Solved_ | Incorrect
 * r1c:
   * Overexcited fan (Not attempted) - (_Solved_, _Solved_, _Solved_)
+  * Overrandomized (Not attempted) - ()
 
 ###### y2019
 * qual:
