@@ -3,6 +3,14 @@ My solutions for google code jam
 
 #### Content (Result during competition) - Current
 
+###### y2021
+* qual:
+  * Reversort (Correct) - _Solved_
+  * Moons and Umberellas (Correct, Correct, ?) - _Solved_ | Not Test case 3
+  * Reversort Engineering
+  * Median Sort
+  * Cheating Detection
+  
 ###### y2020
 * qual:
   * Vestigium (Correct) - _Solved_
