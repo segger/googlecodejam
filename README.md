@@ -7,7 +7,7 @@ My solutions for google code jam
 * qual:
   * Reversort (Correct) - _Solved_
   * Moons and Umberellas (Correct, Correct, ?) - _Solved_ | Not Test case 3
-  * Reversort Engineering (Correct, Wrong Answer) - Test case 1 specific
+  * Reversort Engineering (Correct, Wrong Answer) - _Solved_
   * Median Sort
   * Cheating Detection
   
