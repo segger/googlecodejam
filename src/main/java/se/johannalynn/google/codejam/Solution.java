@@ -1,35 +1,35 @@
 package se.johannalynn.google.codejam;
 
 import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Solution {
-    /*
-    public static void main(String[] args) {
-        String data = "2\n" +
-                "2\n" +
-                "SE\n" +
-                "5\n" +
-                "EESSSESE\n";
-        InputStream stdin = System.in;
-        try {
-            System.setIn(new ByteArrayInputStream(data.getBytes()));
 
-            Scanner in = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
-            int T = Integer.valueOf(in.nextLine());
-            for (int i = 1; i <= T; ++i) {
-                int dimensions = Integer.valueOf(in.nextLine());
-                String lydia = in.nextLine();
-                System.out.println("Case #" + i + ": " + result(dimensions, lydia));
+    private static boolean debug = true;
+
+    public static void main(String[] args) {
+        if (debug) {
+            String data = "2\n" +
+                    "2\n" +
+                    "SE\n" +
+                    "5\n" +
+                    "EESSSESE\n";
+            InputStream stdin = System.in;
+            try {
+                System.setIn(new ByteArrayInputStream(data.getBytes()));
+                run(args);
+            } finally {
+                System.setIn(stdin);
             }
-
-        } finally {
-            System.setIn(stdin);
+        } else {
+            run(args);
         }
-    }*/
+    }
 
-    public static void main(String[] args) {
+    public static void run(String[] args) {
         Scanner in = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
         int T = Integer.valueOf(in.nextLine());
         for (int i = 1; i <= T; ++i) {
