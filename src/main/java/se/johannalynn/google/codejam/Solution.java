@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Solution {
 
-    private static boolean debug = true;
+    private static final boolean debug = true;
 
     public static void main(String[] args) {
         if (debug) {
@@ -31,9 +31,9 @@ public class Solution {
 
     public static void run(String[] args) {
         Scanner in = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
-        int T = Integer.valueOf(in.nextLine());
+        int T = Integer.parseInt(in.nextLine());
         for (int i = 1; i <= T; ++i) {
-            int dimensions = Integer.valueOf(in.nextLine());
+            int dimensions = Integer.parseInt(in.nextLine());
             String lydia = in.nextLine();
             System.out.println("Case #" + i + ": " + result(dimensions, lydia));
         }

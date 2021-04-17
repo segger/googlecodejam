@@ -11,6 +11,9 @@ My solutions for google code jam
   * Median Sort
   * Cheating Detection
   
+* r1a:
+  * Append Sort () - 
+  
 ###### y2020
 * qual:
   * Vestigium (Correct) - _Solved_
