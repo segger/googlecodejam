@@ -121,3 +121,14 @@ My solutions for google code jam
   * A Text Messaging Outrage - _Solved_
   * B Ugly Numbers - Unsolved
   * C Increasing Speed Limits - _Solved_
+
+# googlecodejam io
+My solutions for google code jam I/O
+
+#### Content (Result during competition) - Current
+
+###### y2021
+* Impartial offerings (Correct) - _Solved_
+* Inconstant ordering (Correct) - _Solved_
+* Introductions organization
+* Irrefutable outcome
